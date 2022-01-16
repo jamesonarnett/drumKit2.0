@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lilDrummyBoi</title>
+    <link rel="stylesheet" href="drumStyles.css" />
+  </head>
+  <body>
+    <div class="titleSection">
+      <h1 class="titleTitle">purpleDrummyBoi</h1>
+      <p class="titleText">
+        DrumKit for
+        <a target="_blank" href="https://www.freecodecamp.com"
+          >FreeCodeCamp's</a
+        >
+        front end Cert
+      </p>
+    </div>
+
+    <div class="outerDrumBox" id="drum-machine">
+      <div class="innerDrumBox">
+        <div id="padQ" class="drum-pad">
+          Q
+          <audio name="clap" src="/kitChoices/clap-tape.wav" class="clip" id="Q"></audio>
+        </div>
+
+        <div id="padW" class="drum-pad">
+          W
+          <audio src="/kitChoices/hihat-808.wav" class="clip" id="W"></audio>
+        </div>
+
+        <div id="padE" class="drum-pad">
+          E
+          <audio src="/kitChoices/perc-laser.wav" class="clip" id="E"></audio>
+        </div>
+
+        <div id="padA" class="drum-pad">
+          A
+          <audio src="/kitChoices/kick-electro01.wav" class="clip" id="A"></audio>
+        </div>
+
+        <div id="padS" class="drum-pad">
+          S
+          <audio src="/kitChoices/kick-808.wav" class="clip" id="S"></audio>
+        </div>
+
+        <div id="padD" class="drum-pad">
+          D
+          <audio src="/kitChoices/snare-808.wav" class="clip" id="D"></audio>
+        </div>
+
+        <div id="padZ" class="drum-pad">
+          Z
+          <audio src="/kitChoices/ride-acoustic02.wav" class="clip" id="Z"></audio>
+        </div>
+
+        <div id="padX" class="drum-pad">
+          X
+          <audio src="/kitChoices/tom-808.wav" class="clip" id="X"></audio>
+        </div>
+
+        <div id="padC" class="drum-pad">
+          C
+          <audio src="/kitChoices/tom-lofi.wav" class="clip" id="C"></audio>
+        </div>
+
+      </div>
+    </div>
+
+        
+    <img class="drumPic" alt="drumKit" src="/pur.png"></img>
+    <hr />
+
+    <p id="display">Active Sound here</p>
+
+    <script src="drums.js"></script>
+  </body>
+</html>
